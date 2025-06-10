@@ -8,7 +8,7 @@ public class Car2 {
         int puertas = 4;
         String marca = "Kia";
         boolean isAuto = false;
-        char tipo = "A";
+        char tipo = 'a';
     }
     
 }

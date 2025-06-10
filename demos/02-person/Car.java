@@ -7,7 +7,7 @@ public class Car {
 
       System.out.println("""
               Modelo de coche: %s
-              año de fabricacion: %s
+              año de fabricación: %s
               Número de asientos: %s
               precio: %s
               """);

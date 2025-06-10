@@ -12,9 +12,9 @@ public class Person {
 
      public static void main(String[]args) {
 
-     byte age; // Declaracion
-     age = 22; //Asignacion
-     short birthYear = 1990; // Inicializacion =Declaracion + Asignacion
+     byte age; // Declaración
+     age = 22; //Asignación
+     short birthYear = 1990; // =Declaración + Asignación
      int cityPopulation = 40_000_000;
      long countryPopulation = 40_000_000;
      float height = 1.78f;
@@ -25,8 +25,8 @@ public class Person {
 
      System.out.println("Edad " + age);
      System.out.println("Fecha" + birthYear);
-     System.out.println("poblacion de mi ciudad " + cityPopulation);
-     System.out.println("polacionde  mi pais " + countryPopulation);
+     System.out.println("población de mi ciudad " + cityPopulation);
+     System.out.println("población de  mi país " + countryPopulation);
      System.out.println("""
                Altura %1
                Peso %2

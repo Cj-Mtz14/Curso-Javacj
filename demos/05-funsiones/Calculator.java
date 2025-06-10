@@ -14,7 +14,7 @@ public class Calculator {
         showResult("suma", add(num1, num2));
         showResult ("resta", subtract(num1, num2));
         showResult ("Producto", intDivide(num1, num2));
-        showResult ();
+    
     }
     
 }
