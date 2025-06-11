@@ -1,9 +1,10 @@
-public class Car {
+public class Car1 {
     public static void main(String[] args) {
-      String name = "Nissan";
-      short year = 2010;
+      String nombre = "Nissan";
+      short año = 2010;
       byte seats = 6;
       int price = 25_000;
+      boolean isAuto = true;
 
       System.out.println("""
               Modelo de coche: %s

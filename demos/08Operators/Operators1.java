@@ -1,6 +1,6 @@
 
 
-public class Operators {
+public class Operators1 {
 
     // Operadores - expresiones 
     // Asignación 

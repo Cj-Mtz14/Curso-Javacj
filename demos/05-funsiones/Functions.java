@@ -1,28 +1,31 @@
-
-
 public class Functions {
-    
-    static void add(int num1, int num2){
-        int result = num1 + num2;
-        return result;
-        
-    }
 
-    static void subtraction (int num1, int num2) {
+    // Función: código ejecutable 
+    // Puedo invocarlo por su nombre
+    // Puede recibir valores -> los recoge como parámetros
+    // Puede devolver un valor
+
+    static int add(int num1, int num2){
+        int result = num1 + num2;
+          return result;
+    }
+    
+    static int subtraction (int num1,int num2) {
         int result = num1 - num2;
         return result;
-
-
-
+        // return num1 - num2;
+    }
+    
+    static void showResult(int result) {
+        System.out.println("El resultado es " + result);
     }
 
     public static void main(String[] args) {
-        //Los argumentos son los valores que llegaran a los parámetros
-        int fistResult = add (4, 4);
-        System.out.println("El resultado es " + fistResult);
-        int secondResult = add(345, fistResult);
-        add(345, fistResult);
-
-        //int resultSubtraction = subtraction (23, 56);
+        // Los argumentos son los valores que llegarán a los parámetros
+        int result = add(24,4);
+        showResult(result);
+        result = add(345,result);
+        showResult(result);
+        showResult(subtraction(23, 56 ));
     }
 }
