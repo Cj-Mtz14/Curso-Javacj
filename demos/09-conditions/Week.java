@@ -1,4 +1,7 @@
+import java.util.Scanner;
 
+public class Week {
+    
 static int getAgeByScanner() {
 
         int age;
@@ -10,8 +13,6 @@ static int getAgeByScanner() {
 
     }
 
-
-public class Week {
     public static void main(String[] args) {
          int day = 4;
         switch (day) {

@@ -1,3 +1,6 @@
+
+
+
 import java.util.Scanner;
 
 public class Calculator {
@@ -43,6 +46,7 @@ public class Calculator {
         int num = scanner.nextInt();
         // scanner.close();
         return num;
+        
     }
     
     public static void main(String[] args) {
@@ -55,6 +59,9 @@ public class Calculator {
         showResult("producto", multiply(num1, num2));
         showResult("división", intDivide(num1, num2));
         showResult("resto", restDivision(num1, num2));
+
     }
+
+    
 }
 

@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class School {
     static int getAgeByScanner() {
 
-        int age;
+      
         Scanner scanner = new Scanner (System.in);
         System.out.println("Dime la edad del alumno");
         int edad = scanner.nextInt();
