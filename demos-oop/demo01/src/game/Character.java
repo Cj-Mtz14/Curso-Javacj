@@ -9,19 +9,32 @@ public class Character {
     private boolean isZombi;
 
     public Character(String name, char specie, int number, String roll, boolean isZombi) {
-        System.out.println("Se ha instancia una persona");
+        
 
         this.name = name;
         this.specie = specie;
         this.number = number;
         this.roll = roll;
-        this.isZombi = isZombi;
+        this.isZombi = false;
 
-        Character
+        } 
 
-        
+         public Character() {
+            String zombiMessage = isZombi ? "Es un zombi" : "No es zombi";
+            String message =  """
+                    ===================
+                    ficha del %s
+                    ===================
+                    specie %s
+                    number %s
+                    roll %s
+                    isZombi %s
+                    """;
 
-    } 
+                    
+
+
+         }
 
 
     
