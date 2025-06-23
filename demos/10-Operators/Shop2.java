@@ -45,7 +45,7 @@ static int  getDataByScanner() {
                 Número de paquetes %s
                 Precio total del producto %s EU
                 Descuento aplicado %s EU
-                Gastos de envío &s EU
+                Gastos de envío %s EU
                 -------------------------
                 Total %s EU
                 """.formatted(numberPackets, total, finalDiscount, totalShipping, finalPrice));
