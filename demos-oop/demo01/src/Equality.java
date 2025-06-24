@@ -32,30 +32,74 @@ public class Equality {
     }
 
     public static void Casting() {
-        System.out.println("Casting y coersión de valores primitivos");
+        System.out.println("Casting y coerción de valores primitivos");
 
         int num1 = 23;
         byte num2 = 20;
         byte result = (byte) (num1 + num2);
         System.out.println(result);
+        String text = "Result";
+        System.out.println(text + num1 + num2);
 
 
     }
 
+    public static void compareString() {
+        System.out.println("String and equality");
+        String str1 =  "Hola mundo";
+        String str2 = new String("Hola mundo ");
+        String str3 = "hola mundo";
+        System.out.println(str1 == str2);
+        System.out.println(str1.equals(str2));
+        System.out.println(str1 == str3);
+        String str4 = str3;
+        System.out.println(str2 == str4);
+
+        for (int i = 0; i < str1.length(); i++) {
+            System.out.println(str1.charAt(i));
+        }
+
+        for (char item : str1.toCharArray()) {
+            System.out.println(item);
+        }
+
+        System.out.println("--------");
+        System.out.println(str1.charAt(5));
+        //str1 [5] = "M";
+        System.out.println(str1.codePointAt(5));
+        
+
+        
+    }
+
+public static void compareObjects() {
+    System.out.println("Objects and equality");
+
+    Square sq1 = new Square(10);
+    Square sq2 = new Square(10);
+    Square sq3 = sq1;
+
+    System.out.println(sq1 == sq2); // false
+    System.out.println(sq1.toString()); // true
+    System.out.println(sq2);
+    System.out.println(sq3);
+    System.out.println(sq1.equals(sq2)); // true
 
 
 
-
+}
 
 
 
  public static void main(String[] args) {
-    System.out.println("Aprendiendo acerca de la igualdadd en java ");
+    System.out.println("Aprendiendo acerca de la igualdad en java ");
     primitives();
     System.out.println("----------------------");
     wrappers();
     System.out.println("----------------------");
     Casting();
+    System.out.println("-----------------------");
+    compareString();
 
     
    

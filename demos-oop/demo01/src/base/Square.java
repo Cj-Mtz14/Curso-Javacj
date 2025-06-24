@@ -14,4 +14,11 @@ public class Square {
         super.toString() + "\n" + "Square {side: %s}".formatted(side);
     }
 
+    @Override
+    public boolean equals(Object object) {
+        
+        if (object instanceof Square && this.side == ((Square)object).side)
+        return true;
+    }
+
 }
