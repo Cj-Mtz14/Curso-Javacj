@@ -1,4 +1,4 @@
-package base;
+package animals;
 
 public class Dog extends Pet {
 
@@ -7,7 +7,7 @@ public class Dog extends Pet {
     };
 
     @Override
-    public void eat () {
+    public void eat() {
         super.eat();
         String message = "Comes comida para perros";
         System.out.println(message);

@@ -1,4 +1,4 @@
-package base;
+package animals;
 
 public class Cat extends Pet {
 
@@ -7,6 +7,8 @@ public class Cat extends Pet {
     };
 
     public void eat() {
+        String message = "Como comida para perros";
+        System.out.println(message);
 
     }
 }

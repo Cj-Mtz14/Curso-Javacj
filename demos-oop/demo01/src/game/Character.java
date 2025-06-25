@@ -36,6 +36,21 @@ public class Character {
 
          }
 
+         public void showCharacter() {
+            // TODO Auto-generated method stub
+            throw new UnsupportedOperationException("Unimplemented method 'showCharacter'");
+         }
+
+         public void renameInvalidCharacters(String string) {
+            // TODO Auto-generated method stub
+            throw new UnsupportedOperationException("Unimplemented method 'renameInvalidCharacters'");
+         }
+
+         public static void showList() {
+            // TODO Auto-generated method stub
+            throw new UnsupportedOperationException("Unimplemented method 'showList'");
+         }
+
 
     
 }
