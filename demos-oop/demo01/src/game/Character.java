@@ -19,7 +19,7 @@ public class Character {
 
         } 
 
-         public Character() {
+         public Character(String string, char elfo, int i, int j, Role mago, boolean b) {
             String zombiMessage = isZombi ? "Es un zombi" : "No es zombi";
             String message =  """
                     ===================

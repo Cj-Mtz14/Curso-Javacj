@@ -17,4 +17,14 @@ public class Company {
         return name;
     }
 
+    public Object renderHeader() {
+        
+        throw new UnsupportedOperationException("Unimplemented method 'renderHeader'");
+    }
+
+    public Object renderClient() {
+     
+        throw new UnsupportedOperationException("Unimplemented method 'renderClient'");
+    }
+
 }

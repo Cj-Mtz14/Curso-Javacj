@@ -1,6 +1,6 @@
 package animals;
 
-public class Pet {
+public abstract class Pet implements IPet {
 
     private String name;
     private int age;
@@ -8,17 +8,31 @@ public class Pet {
     public Pet() {};
 
     public Pet(String name, int age) {
-    this.name = name;
-    this.age = age;
-
+        this.name = name;
+        this.age = age;
     };
 
-    public void sleep () {
-        System.out.println();
+    public Pet(String name) {
+        this.name = name;
+        this.age = 0;
+    };
+
+    @Override
+    public void sleep() {
+        System.out.println("Estoy durmiendo");
     }
 
-    public void eat () {
-        System.out.println();
+    @Override
+    public void eat() {
+        System.out.println("Estoy comiendo");
     }
 
+    @Override
+    public void eat(int n) {
+        System.out.println("Estoy comiendo");
+    }
+
+    @Override
+    public abstract String makeSounds();
 }
+
