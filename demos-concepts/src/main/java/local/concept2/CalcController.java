@@ -75,4 +75,14 @@ public class CalcController extends Calc {
         return result;
     }
 
+    public double decimalDivide() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'decimalDivide'");
+    }
+
+    public Integer pow() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'pow'");
+    }
+
 }
