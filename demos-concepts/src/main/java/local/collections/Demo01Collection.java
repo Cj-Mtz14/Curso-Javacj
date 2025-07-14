@@ -17,7 +17,7 @@ import java.util.Vector;
 //      - Vector
 //          - Stack
 
-public class Demo02List{
+public class Demo01Collection{
 
     public void showList(List<Integer> list) {
         // Mostrar ejemplos de las clases de la API de colecciones
@@ -75,7 +75,7 @@ public class Demo02List{
             stack.add(i);
         }
 
-        Demo02List demo = new Demo02List();
+        Demo01Collection demo = new Demo01Collection();
         demo.showList(arrayList);
         demo.showList(linkedList);
         demo.showList(vector);
